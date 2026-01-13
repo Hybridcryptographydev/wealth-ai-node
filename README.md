@@ -5,4 +5,3 @@
 ✅ Node.js 18+ installed
 ✅ Code Editor (VS Code recommended)
 ✅ Terminal/Command Prompt access
-✅ (Optional) $10 for initial test capital
