@@ -1,16 +1,31 @@
-# Secrets and keys
-Keys.pub
+# Secrets and keys - NEVER commit these!
+Keys
+Keys.*
 *.key
 *.pem
+*.priv
+*.p12
+*.pfx
+id_*
+ssh_host_*
+*.cer
+*.crt
+*.cert
 .env
 .env.local
 .env*.local
+secrets/
+credentials/
+config.json
+config.yaml
+config.yml
 
 # Dependencies
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # IDE and OS
 .vscode/
@@ -18,8 +33,17 @@ yarn-error.log*
 .DS_Store
 *.swp
 *.swo
+Thumbs.db
 
 # Build outputs
 dist/
 build/
+out/
 *.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
