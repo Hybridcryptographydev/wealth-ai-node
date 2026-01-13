@@ -1,0 +1,47 @@
+{
+  "name": "wealth-ai-node",
+  "version": "1.0.0",
+  "description": "24/7 Self-Earning Wealth Management AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "nodemon server.js",
+    "trading": "node core/trading/24-7-bot.js",
+    "scan": "node core/analysis/market-scanner.js",
+    "deploy": "node deploy/auto-deploy.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "keywords": ["wealth", "trading", "ai", "crypto", "algorithm", "nodejs"],
+  "author": "YOUR_NAME",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ccxt": "^4.1.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5",
+    "redis": "^4.6.10",
+    "mongoose": "^7.5.0",
+    "cron": "^3.0.3",
+    "winston": "^3.10.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "technicalindicators": "^3.1.0",
+    "brain.js": "^2.0.0-beta.18",
+    "@tensorflow/tfjs-node": "^4.10.0",
+    "natural": "^6.5.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+# 1. Binance Testnet (FREE - No real money):
+#    Visit: https://testnet.binance.vision/
+#    Click "Generate API Key"
+#    Copy to .env file
+
+# 2. Alpha Vantage (FREE - 5 calls/minute):
+#    Visit: https://www.alphavantage.co/support/#api-key
+#    Get free key, add to .env
+
+# 3. Finnhub (FREE - 60 calls/minute):
+#    Visit: https://finnhub.io/register
+#    Get free key, add to .env

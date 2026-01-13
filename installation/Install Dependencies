@@ -1,0 +1,5 @@
+# Install all dependencies
+npm install
+
+# If npm install fails, try:
+npm install --legacy-peer-deps
